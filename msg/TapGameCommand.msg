@@ -1,0 +1,14 @@
+# Message for requesting actions from the SAR Opal tablet app
+Header header
+
+int8 command # which command will be sent
+
+# properties of command, such as:
+#   string name of action for sidekick to do (use constants below)
+#   string name of sound for sidekick to play
+#   json string that is the set of properties of the object to load
+#   null if no extra properties needed
+string properties 
+
+# Commands
+int8 RESET = 0 
