@@ -19,5 +19,5 @@ string clickedObjectName
 # on pinch the screen
 bool onPinck
 
-# button clicked. which button is clicked (e.g., speech_start, speech_end)
-string clickedButtonName
+# speaking start, end, speaking, no speaking
+string speakingStage
