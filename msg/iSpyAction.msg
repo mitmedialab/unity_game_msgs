@@ -14,13 +14,10 @@ float32[] pointerPosition
 bool isDragging
 
 # on pointer clicking an clickable object
-string clickedNonTargetObjectName
-
-# on pointer clicking a target object
-string clickedTargetObjectName
+string clickedObjectName
 
 # on pinch the screen
 bool onPinck
 
-# current game quest
-string gameQuest
+# button clicked. which button is clicked (e.g., speech_start, speech_end)
+string clickedButtonName
