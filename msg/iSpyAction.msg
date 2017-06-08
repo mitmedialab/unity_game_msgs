@@ -1,5 +1,6 @@
 # ROS Message (from tablet to robot)
 
+
 # flag for canvas scaling up 
 bool isScalingUp
 
@@ -21,3 +22,4 @@ bool onPinck
 
 # speaking start, end, speaking, no speaking
 string speakingStage
+
