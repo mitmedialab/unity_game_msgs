@@ -12,3 +12,5 @@ string properties
 
 # Commands
 int8 RESET = 0 
+int8 INIT_ROUND = 0 # tells game to load animal
+int8 START_ROUND = 1 # tells game to do countdown and make buttons active
