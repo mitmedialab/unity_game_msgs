@@ -4,8 +4,9 @@ Header header
 string message
 
 string CHECK_IN = 0
-string INIT_ROUND_DONE = 1
-string START_ROUND_DONE = 2
-string ROBOT_RING_IN = 3
-string PLAYER_RING_IN = 4
-string INIT_NEXT_ROUND = 5
+string GAME_START_PRESSED = 1
+string INIT_ROUND_DONE = 2
+string START_ROUND_DONE = 3
+string ROBOT_RING_IN = 4
+string PLAYER_RING_IN = 5
+string RESET_NEXT_ROUND_DONE = 6
