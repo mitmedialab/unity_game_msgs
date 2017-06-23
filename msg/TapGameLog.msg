@@ -10,3 +10,4 @@ string START_ROUND_DONE = 3
 string ROBOT_RING_IN = 4
 string PLAYER_RING_IN = 5
 string RESET_NEXT_ROUND_DONE = 6
+string SHOW_GAME_END_DONE = 7
