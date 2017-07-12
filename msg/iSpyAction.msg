@@ -18,7 +18,7 @@ bool isDragging
 string clickedObjectName
 
 # on pinch the screen
-bool onPinck
+bool onPinch
 
 # speaking start, end, speaking, no speaking
 string speakingStage
