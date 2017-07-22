@@ -23,3 +23,7 @@ bool onPinch
 # speaking start, end, speaking, no speaking
 string speakingStage
 
+
+
+ 
+
