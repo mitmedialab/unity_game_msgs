@@ -12,3 +12,4 @@ string PLAYER_RING_IN = 5
 string END_ROUND_DONE = 6
 string RESET_NEXT_ROUND_DONE = 7
 string SHOW_GAME_END_DONE = 8
+string PLAYER_BEAT_ROBOT = 9
