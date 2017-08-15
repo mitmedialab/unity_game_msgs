@@ -15,8 +15,9 @@ find_package(catkin REQUIRED COMPONENTS
  add_message_files(
    FILES
    TapGameCommand.msg
+   iSpyCommand.msg
+   iSpyAction.msg
    TapGameLog.msg
-   iSpyCommand.msg   
  )
 
 ## Generate added messages and services with any dependencies listed here
