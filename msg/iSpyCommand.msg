@@ -21,3 +21,4 @@ int8 SEND_TASKS_TO_UNITY=20 # send a list of tasks to unity when game launches. 
 
 int8 GAME_FINISHED = 99 #let Unity know when all of the tasks have been completed so it can end the game
 
+int8 ROBOT_VIRTUAL_ACTIONS = 30 #send commands to let Unity game performs out robot's virtual interaction with the tablet on the screen (our robots do not have arms)
