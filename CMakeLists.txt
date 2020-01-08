@@ -14,17 +14,42 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
  add_message_files(
    FILES
-   TapGameCommand.msg
-   TapGameRoundSummary.msg
-   iSpyCommand.msg
-   iSpyAction.msg
-   TapGameLog.msg
+   EndPageQuestions.msg
+   StorybookCommand.msg
+   StorybookEvent.msg
+   StorybookState.msg
+   StorybookSceneObject.msg
+   StorybookTinkerText.msg
+   StorybookExpectedResponse.msg
+   StorybookRobotResponse.msg
+   StorybookPromptHighlightObject.msg
+   StorybookJiboPrompt.msg
+   StorybookKeywordQNA.msg
+   StorybookKeyword.msg
+   StorybookPageInfo.msg
+   AudioStream.msg
+   EndPageQuestions.msg
+   TapGameMsgs/TapGameCommand.msg
+   TapGameMsgs/TapGameRoundSummary.msg
+   TapGameMsgs/TapGameLog.msg
+   RhymeGameMsgs/RhymeGameCommand.msg
+   RhymeGameMsgs/RhymeGameRoundSummary.msg
+   RhymeGameMsgs/RhymeGameLog.msg
+   iSpyMsgs/iSpyCommand.msg
+   iSpyMsgs/iSpyAction.msg
+   iSpyMsgs/iSpyChildRobotInteraction.msg
+   iSpyMsgs/iSpyChildOnlyInteraction.msg
+   FaceIdMsgs/FaceIDCommand.msg
+   FaceIdMsgs/FaceIDEvent.msg
+   FaceIdMsgs/FaceIDState.msg
+   FaceIdMsgs/FaceIDTraining.msg
  )
 
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
    DEPENDENCIES
-   std_msgs  
+   std_msgs
+   unity_game_msgs
  )
 
 ###################################
@@ -42,4 +67,3 @@ catkin_package(
   CATKIN_DEPENDS message_runtime std_msgs
 #  DEPENDS system_lib
 )
-
