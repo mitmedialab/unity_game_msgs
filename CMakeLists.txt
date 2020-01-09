@@ -16,6 +16,8 @@ find_package(catkin REQUIRED COMPONENTS
    FILES
    GameLaunchCommand.msg
    GameLaunchState.msg
+   SensorLaunchCommand.msg
+   SensorLaunchState.msg
    EndPageQuestions.msg
    StorybookCommand.msg
    StorybookEvent.msg
