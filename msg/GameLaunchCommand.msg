@@ -11,6 +11,7 @@ string game_name
 
 # arguments
 string pid
+string session
 string experimenter
 string mode
 
