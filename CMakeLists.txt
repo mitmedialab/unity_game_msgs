@@ -15,6 +15,7 @@ find_package(catkin REQUIRED COMPONENTS
  add_message_files(
    FILES
    GameLaunchCommand.msg
+   GameLaunchState.msg
    EndPageQuestions.msg
    StorybookCommand.msg
    StorybookEvent.msg
