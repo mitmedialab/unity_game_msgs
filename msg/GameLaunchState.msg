@@ -3,11 +3,8 @@
 # Standard ROS header.
 Header header
 
-# Start/Stop
-int8 command
-
 # game running state
-bool is_game_running
+int8 game_running_state
 
 # arguments
 string current_game
@@ -17,3 +14,10 @@ string STORYBOOK = Storybook
 string RHYMERACER = RhymeRacer
 string WORDQUEST = WordQuest
 string FACEID = FaceID
+
+# Game Running state constants
+int8 INACTIVE = 0
+int8 ACTIVE = 1
+int8 LAUNCHING = 2
+int8 CLOSING = 3
+

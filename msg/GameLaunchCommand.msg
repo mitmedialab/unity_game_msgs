@@ -16,8 +16,8 @@ string experimenter
 string mode
 
 # Activity command constants
-int8 START_GAME = 0
-int8 STOP_GAME = 1
+int8 STOP_GAME = 0
+int8 START_GAME = 1
 
 # Acitivy type constants
 string STORYBOOK = Storybook
