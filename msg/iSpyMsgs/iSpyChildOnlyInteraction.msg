@@ -4,6 +4,9 @@ Header header
 # current game task index: 
 int8 gameTask 
 
+# game scene (e.g., indoor, outdoor, city,safari)
+string scene
+
 
 # vocab word in the current game task
 string taskVocab 
