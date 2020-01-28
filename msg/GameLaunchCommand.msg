@@ -12,6 +12,7 @@ string game_name
 # arguments
 string pid
 string session
+bool tutorial
 string experimenter
 string mode
 
