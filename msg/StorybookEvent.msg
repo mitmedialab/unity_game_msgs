@@ -26,3 +26,4 @@ int8 AUDIO_PLAYING_COMPLETE = 14 # Message is the {index: int} of the sentence
 int8 JIBO_QUESTION_BUTTON_PRESSED = 15 # Message is empty
 int8 TARGET_WORD_QUESTION_BEFORE_NEXT_PAGE = 16 # Message is empty
 int8 STUDENT_LOGOUT = 17 # Message is empty
+int8 SCREEN_TAPPING = 18 # Message contains information of the tapping location, scene, time, object/text
