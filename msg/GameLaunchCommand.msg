@@ -11,7 +11,8 @@ string game_name
 
 # arguments
 string pid
-string session
+int8 session
+bool tutorialNeeded
 string experimenter
 string mode
 
