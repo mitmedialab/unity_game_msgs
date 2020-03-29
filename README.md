@@ -1,3 +1,3 @@
 # unity\_game\_msgs
 
-# This repo is DEPRECATED. Messages are now defined within `unity-game-controllers` repo
+# This repo contains message definitions for the `unity-game-controllers` repo
