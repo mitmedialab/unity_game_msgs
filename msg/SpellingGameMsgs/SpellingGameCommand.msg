@@ -15,9 +15,11 @@ int8 START_SUBROUND = 2
 int8 TABLET_PLACE = 3
 int8 ROBOT_PLACE = 11
 int8 ROBOT_UNPLACE = 5
+int8 ROBOT_SUBMIT = 12
 int8 SUBMIT_PROCESSED = 4
 int8 SHOW_GAME_END = 9
 int8 SIGNAL_GAME_CLOSE = 10
+int8 ALERT = 13
 
 # tells game to initialize grid
 # tells game to load grid with target word chosen
