@@ -14,6 +14,8 @@ bool is_run_affdex
 bool is_run_opensmile
 bool is_run_openpose
 
+string affdex_version
+
 # Command constants
 int8 START_SENSOR = 0
 int8 STOP_SENSOR = 1
@@ -23,3 +25,6 @@ string USBCAM = UsbCam
 string IPCAM = IpCam
 string MICROPHONE = Microphone
 
+# Affdex options
+string AFFDEX_V4 = v4
+string AFFDEX_AUTO = auto
