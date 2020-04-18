@@ -40,7 +40,7 @@ find_package(catkin REQUIRED COMPONENTS
    RhymeGameMsgs/RhymeGameRoundSummary.msg
    RhymeGameMsgs/RhymeGameLog.msg
    SpellingGameMsgs/SpellingGameCommand.msg
-   SpellingGameMsgs/SpellingGameRoundSummary.msg
+   SpellingGameMsgs/SpellingGameFeatureLog.msg
    SpellingGameMsgs/SpellingGameLog.msg
    iSpyMsgs/iSpyCommand.msg
    iSpyMsgs/iSpyAction.msg
