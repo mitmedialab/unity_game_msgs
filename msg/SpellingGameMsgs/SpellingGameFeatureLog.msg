@@ -3,10 +3,10 @@ Header header
 
 bool faceInFrame
 
-int16 faceX
-int16 faceY
-int16 faceZ
+float32 faceX
+float32 faceY
+float32 faceZ
 
-int16 timeSincePlayerAction
+float32 timeSincePlayerAction
 string lastPlayerActionLabel
 string lastRobotActionLabel
