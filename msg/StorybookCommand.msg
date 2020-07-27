@@ -24,3 +24,5 @@ int8 START_PAGE_AUDIO_PLAY = 11 # Params is empty
 int8 JIBO_QUESTION_ASKING_ACTIVITY = 12 # Params is {enable_button: bool}
 int8 APP_SHUT_DOWN = 13 # Params is empty
 int8 APP_BUTTON_CONTROL = 14 # Params is {begin_button: bool, back_button:bool}
+int8 TUTORIAL_COMMAND = 15 # Parames is {tutorial_mode: bool, button: string}
+int8 PERSONALIZED_STORY_FEED = 16 # Params is {story_segment: string}
