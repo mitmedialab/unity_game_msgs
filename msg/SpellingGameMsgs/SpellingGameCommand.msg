@@ -21,6 +21,8 @@ int8 SUBMIT_PROCESSED = 4
 int8 SHOW_GAME_END = 9
 int8 SIGNAL_GAME_CLOSE = 10
 int8 ALERT = 13
+int8 DISABLE_BUTTON_PRESS = 20
+int8 ENABLE_BUTTON_PRESS = 21
 
 # tells game to initialize grid
 # tells game to load grid with target word chosen
