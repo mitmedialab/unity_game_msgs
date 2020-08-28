@@ -26,3 +26,7 @@ int8 APP_SHUT_DOWN = 13 # Params is empty
 int8 APP_BUTTON_CONTROL = 14 # Params is {begin_button: bool, back_button:bool}
 int8 TUTORIAL_COMMAND = 15 # Parames is {tutorial_mode: bool, button: string}
 int8 PERSONALIZED_STORY_FEED = 16 # Params is {story_segment: string}
+int8 WORD_DECODING_INSTRUCTIONS = 17 # Params is {target_word: string (None if nothing to decode)}. This command is issued after the storybook told the controller that there is an opportunity for decoding interaction.
+int8 WORD_DECODING_SOUND_OUT = 18 # Params is empty
+int8 WORD_DECODING_REPEAT_INPUT = 19 # Params is empty
+int8 WORD_DECODING_FINISHED = 20 # Params is empty

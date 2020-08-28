@@ -29,3 +29,7 @@ int8 STUDENT_LOGOUT = 17 # Message is empty
 int8 SCREEN_TAPPING = 18 # Message contains information of the tapping location, scene, time, object/text
 int8 BUTTON_PRESSED = 19 # Message is {button: string}
 int8 WAITING_PERSONALIZED_STORY = 20 # Empty message
+int8 WORD_DECODING_OPPORTUNITY = 21 # Message contains number of sentence on the current page in which the target word might occur
+int8 WORD_DECODING_ANALYSIS_STARTED = 22 # Empty message
+int8 WORD_DECODING_RESULT = 23 # Message contains results JSON from SoapBox
+int8 WORD_DECODING_SOUND_OUT_COMPLETE = 24 # Empty message
