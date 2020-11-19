@@ -3,4 +3,5 @@
 
 int8 id
 string label
+string[] descriptions
 bool in_text
