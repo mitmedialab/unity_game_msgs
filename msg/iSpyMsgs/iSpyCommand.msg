@@ -59,3 +59,5 @@ int8 DISABLE_CHILD_SCREEN_INTERACTION=70
 
 int8 CONTROLLER_INIT_STATUS=71
 
+int8 TUTORIAL_CMD=72 # send tutorial commands from controller to ispy unity
+
