@@ -2,10 +2,10 @@ cmake_minimum_required(VERSION 2.8.3)
 project(unity_game_msgs)
 
 ## Find catkin macros and libraries, and other catkin packages
-find_package(catkin REQUIRED COMPONENTS 
-	roscpp 
-	rospy 
-	std_msgs 
+find_package(catkin REQUIRED COMPONENTS
+	roscpp
+	rospy
+	std_msgs
 	message_generation)
 
 ################################################
@@ -46,6 +46,7 @@ find_package(catkin REQUIRED COMPONENTS
    iSpyMsgs/iSpyAction.msg
    iSpyMsgs/iSpyChildRobotInteraction.msg
    iSpyMsgs/iSpyChildOnlyInteraction.msg
+	 iSpyMsgs/iSpyLog.msg
    FaceIdMsgs/FaceIDCommand.msg
    FaceIdMsgs/FaceIDEvent.msg
    FaceIdMsgs/FaceIDState.msg
