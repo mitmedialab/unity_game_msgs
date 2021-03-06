@@ -11,7 +11,7 @@ string params
 
 int8 HELLO_WORLD_ACK = 0 # Initializtion info. Params is {participant_id: string, story_name: [string], last_read_page: [int]}
 int8 HIGHLIGHT_WORD = 1 # Params is {indexes:[string], unhighlight: bool, stay_on: bool, scene_object_id: [int]}, words to highlight, whether it should stay on forever, or turn off
-int8 HIGHLIGHT_SCENE_OBJECT = 2 # Params is {ids: [int], highlight_type: int}, scene objects to highlight and type of highlight, where 0 = blink, 1 = highlight, and 2 = flash
+int8 HIGHLIGHT_SCENE_OBJECT = 2 # Params is {ids: [int], highlight_type: int, tap : bool}, scene objects to highlight; type of highlight, where 0 = blink, 1 = highlight, and 2 = flash; whether highlight is caused by tap
 int8 SHOW_NEXT_SENTENCE = 3 # Params is {index: int, child_turn: bool, record: bool}, sentence to highlight and whether it's the child's turn
 int8 START_RECORD = 4 # Params is {index: optional int, oneshot: optional bool}. Starts recording given sentence index, but without attempting to reshow the sentence. If index is null, storybook uses it's current evaluatingSentenceIndex. Param oneshot is true if we are just asking to record a sentence out of the context of the normal evaluation sentence-by-sentence reading, e.g. when we ask the child to reread a sentence at end of page. This controls whether or not the next sentence is autohighlighted when the child presses the done button.
 int8 CANCEL_RECORD = 5 # Params is empty
