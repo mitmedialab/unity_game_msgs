@@ -19,10 +19,19 @@ int8 GO_TO_PAGE = 6 # Params is {page_number: int}
 int8 NEXT_PAGE = 7 # Params is empty
 int8 GO_TO_END_PAGE = 8 # Params is empty
 int8 SHOW_LIBRARY_PANEL = 9 # Params is empty
-int8 HIGHLIGHT_ALL_SENTENCES = 10 # Params is empty
-int8 START_PAGE_AUDIO_PLAY = 11 # Params is empty
+int8 HIGHLIGHT_SENTENCE_AUDIO = 10 # {sentence_id: int, highlight:bool}
+int8 START_PAGE_AUDIO_PLAY = 11 # {full_page: bool, sentence_id: string}
 int8 JIBO_QUESTION_ASKING_ACTIVITY = 12 # Params is {enable_button: bool}
 int8 APP_SHUT_DOWN = 13 # Params is empty
 int8 APP_BUTTON_CONTROL = 14 # Params is {begin_button: bool, back_button:bool}
 int8 TUTORIAL_COMMAND = 15 # Parames is {tutorial_mode: bool, button: string, action: string}, action is "highlight" or "enable"
-int8 PERSONALIZED_STORY_FEED = 16 # Params is {story_segment: string}
+#int8 GAME_SESSION_COMMAND = 16 # Params is {game_mode: string}
+
+int8 OPEN_LIBRARY_SCENE = 100 #
+int8 SEND_SUGGESTED_SEGMENTS = 101 # {stories: [{story_segment_info}]}
+int8 KEYWORD_ASSESSMENT_START = 102
+int8 SEND_ASSESSMENT_KEYWORD = 103 # {keyword: string}
+int8 KEYWORD_ASSESSMENT_END = 104
+int8 SEQUENTIAL_SEGMENT_EXISTS = 105
+
+int8 STORY_SEGMENT_SELECTED = 110 # the storybook segment selected by the model

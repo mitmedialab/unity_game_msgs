@@ -31,6 +31,7 @@ find_package(catkin REQUIRED COMPONENTS
    StorybookKeywordQNA.msg
    StorybookKeyword.msg
    StorybookPageInfo.msg
+   StorybookPersonalizationLog.msg
    AudioStream.msg
    EndPageQuestions.msg
    TapGameMsgs/TapGameCommand.msg

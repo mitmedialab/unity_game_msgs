@@ -29,3 +29,6 @@ int8 STUDENT_LOGOUT = 17 # Message is empty
 int8 SCREEN_TAPPING = 18 # Message contains information of the tapping location, scene, time, object/text
 int8 BUTTON_PRESSED = 19 # Message is {button: string}
 int8 WAITING_PERSONALIZED_STORY = 20 # Empty message
+
+int8 ASSESSMENT_SCENE_LOADED = 100
+int8 KEYWORD_ASSESSMENT_RESULT = 101 # {keyword: string, has_assessment: bool, correct: bool}

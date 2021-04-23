@@ -5,6 +5,7 @@ Header header
 
 bool audio_playing
 string audio_file
+string sentence_id
 
 # Either NOT_READING or EXPLORE_MODE or EVALUATE_MODE, see below.
 int8 storybook_mode
@@ -22,9 +23,10 @@ int8 evaluating_sentence_index
 # int8 current_tinkertext_index
 
 # Constants for storybook_mode above.
-int8 NOT_READING = 0
+int8 TUTORIAL = 0
 int8 EXPLORE_MODE = 1
 int8 EVALUATE_MODE = 2
+int8 PERSONALIZE_MODE = 3
 
 #
 # Other properties that can be filled in later...
