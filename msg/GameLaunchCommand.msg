@@ -25,3 +25,5 @@ string STORYBOOK = Storybook
 string RHYMERACER = RhymeRacer
 string WORDQUEST = WordQuest
 string FACEID = FaceID
+string WORDBUILDER = WordBuilder
+string SPEECHBLOCKS = SpeechBlocks
