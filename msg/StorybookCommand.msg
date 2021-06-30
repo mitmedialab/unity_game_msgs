@@ -27,6 +27,11 @@ int8 APP_BUTTON_CONTROL = 14 # Params is {begin_button: bool, back_button:bool}
 int8 TUTORIAL_COMMAND = 15 # Parames is {tutorial_mode: bool, button: string, action: string}, action is "highlight" or "enable"
 #int8 GAME_SESSION_COMMAND = 16 # Params is {game_mode: string}
 
+int8 WORD_DECODING_INSTRUCTIONS = 17 # Params is {target_word: string (None if nothing to decode)}. This command is issued after the storybook told the controller that there is an opportunity for decoding interaction.
+int8 WORD_DECODING_SOUND_OUT = 18 # Params is empty
+int8 WORD_DECODING_REPEAT_INPUT = 19 # Params is empty
+int8 WORD_DECODING_FINISHED = 20 # Params is empty
+
 int8 OPEN_LIBRARY_SCENE = 100 #
 int8 SEND_SUGGESTED_SEGMENTS = 101 # {stories: [{story_segment_info}]}
 int8 KEYWORD_ASSESSMENT_START = 102
