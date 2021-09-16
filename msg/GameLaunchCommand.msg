@@ -12,13 +12,18 @@ string game_name
 # arguments
 string pid
 int8 session
-bool tutorialNeeded
+# bool tutorialNeeded
 string experimenter
 string mode
 
 # Activity command constants
 int8 STOP_GAME = 0
 int8 START_GAME = 1
+
+# Activity mode
+string TUTORIAL = Tutorial
+string PERSONALIZE = Personalize
+string EXPLORE = Explore
 
 # Acitivy type constants
 string STORYBOOK = Storybook
