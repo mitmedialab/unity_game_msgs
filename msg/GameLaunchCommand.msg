@@ -23,7 +23,8 @@ int8 START_GAME = 1
 # Activity mode
 string TUTORIAL = Tutorial
 string PERSONALIZE = Personalize
-string EXPLORE = Explore
+string EXPLORE_A = ExploreA
+string EXPLORE_B = ExploreB
 
 # Acitivy type constants
 string STORYBOOK = Storybook
