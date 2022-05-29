@@ -32,6 +32,9 @@ int8 WORD_DECODING_SOUND_OUT = 18 # Params is empty
 int8 WORD_DECODING_REPEAT_INPUT = 19 # Params is empty
 int8 WORD_DECODING_FINISHED = 20 # Params is empty
 
+int8 PLAY_WORD_DECODING = 21
+int8 PLAY_WORD_MEANING = 22
+
 int8 OPEN_LIBRARY_SCENE = 100 #
 int8 SEND_SUGGESTED_SEGMENTS = 101 # {stories: [{story_segment_info}]}
 int8 KEYWORD_ASSESSMENT_START = 102

@@ -24,9 +24,10 @@ int8 evaluating_sentence_index
 
 # Constants for storybook_mode above.
 int8 TUTORIAL = 0
-int8 EXPLORE_MODE = 1
-int8 EVALUATE_MODE = 2
-int8 PERSONALIZE_MODE = 3
+int8 BASELINE_MODE = 1
+int8 EXPLORE_MODE = 2
+int8 EVALUATE_MODE = 3
+int8 PERSONALIZE_MODE = 4
 
 #
 # Other properties that can be filled in later...

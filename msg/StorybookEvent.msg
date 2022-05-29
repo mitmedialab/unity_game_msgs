@@ -33,6 +33,7 @@ int8 WORD_DECODING_OPPORTUNITY = 21 # Message contains number of sentence on the
 int8 WORD_DECODING_ANALYSIS_STARTED = 22 # Empty message
 int8 WORD_DECODING_RESULT = 23 # Message contains results JSON from SoapBox
 int8 WORD_DECODING_SOUND_OUT_COMPLETE = 24 # Empty message
+int8 WORD_EXPLANATION_COMPLETE = 25
 
 int8 ASSESSMENT_SCENE_LOADED = 100
 int8 KEYWORD_ASSESSMENT_RESULT = 101 # {keyword: string, has_assessment: bool, correct: bool}
