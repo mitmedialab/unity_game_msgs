@@ -16,6 +16,7 @@ find_package(catkin REQUIRED COMPONENTS
    FILES
    GameLaunchCommand.msg
    GameLaunchState.msg
+   MicAsrResult.msg
    SensorLaunchCommand.msg
    SensorLaunchState.msg
    EndPageQuestions.msg
