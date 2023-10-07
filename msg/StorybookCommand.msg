@@ -37,6 +37,7 @@ int8 PLAY_WORD_MEANING = 22
 
 int8 JIBO_VIRTUAL_ACTION = 23
 int8 FINISH_STORY_AND_GO_BACK_FACEID = 24
+int8 TOGGLE_CONVERSATION_PANEL = 25 # Params is {open: bool}
 
 int8 OPEN_LIBRARY_SCENE = 100 #
 int8 SEND_SUGGESTED_SEGMENTS = 101 # {stories: [{story_segment_info}]}
