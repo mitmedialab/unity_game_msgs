@@ -15,6 +15,7 @@ int8 session
 # bool tutorialNeeded
 string experimenter
 string mode
+int8 classroom
 
 # Activity command constants
 int8 STOP_GAME = 0
