@@ -31,13 +31,12 @@ int8 WORD_DECODING_INSTRUCTIONS = 17 # Params is {target_word: string (None if n
 int8 WORD_DECODING_SOUND_OUT = 18 # Params is empty
 int8 WORD_DECODING_REPEAT_INPUT = 19 # Params is empty
 int8 WORD_DECODING_FINISHED = 20 # Params is empty
-
 int8 PLAY_WORD_DECODING = 21
 int8 PLAY_WORD_MEANING = 22
-
 int8 JIBO_VIRTUAL_ACTION = 23
-int8 FINISH_STORY_AND_GO_BACK_FACEID = 24
+int8 FINISH_STORY_AND_GO_BACK_LIBRARY = 24
 int8 TOGGLE_CONVERSATION_PANEL = 25 # Params is {open: bool}
+int8 FINISH_STORY_RETELL = 26
 
 int8 OPEN_LIBRARY_SCENE = 100 #
 int8 SEND_SUGGESTED_SEGMENTS = 101 # {stories: [{story_segment_info}]}
