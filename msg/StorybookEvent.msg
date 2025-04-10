@@ -35,11 +35,16 @@ int8 WORD_DECODING_RESULT = 23 # Message contains results JSON from SoapBox
 int8 WORD_DECODING_SOUND_OUT_COMPLETE = 24 # Empty message
 int8 WORD_EXPLANATION_COMPLETE = 25
 int8 WORD_DECODING_PANEL_OPEN = 26
-int8 CHILD_FINISHED_ANSWER = 27
-int8 STORY_RETELL_PANEL_OPEN = 28 # pass in the story finished {story_nae: string, start_page: int, end_page: int}
-int8 CHILD_STORY_RETELL_START = 29
-int8 CHILD_STORY_RETELL_END = 30
+int8 CHILD_STARTED_ANSWER_QUESTION = 27
+int8 CHILD_FINISHED_ANSWER_QUESTION = 28
+int8 STORY_RETELL_PANEL_OPEN = 29 # pass in the story finished {story_nae: string, start_page: int, end_page: int}
+int8 CHILD_STORY_RETELL_START = 30
+int8 CHILD_STORY_RETELL_END = 31
 
 int8 ASSESSMENT_SCENE_LOADED = 100
 int8 KEYWORD_ASSESSMENT_RESULT = 101 # {keyword: string, has_assessment: bool, correct: bool, chosen: string, pre_session: bool}
 int8 KEYWORD_ASSESSMENT_FINISHED = 102
+
+int8 QUESTION_BUTTON_PRESSED = 103
+int8 TABLET_QUESTION_SOUND_OUT = 104
+
