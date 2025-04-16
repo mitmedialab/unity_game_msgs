@@ -27,6 +27,7 @@ find_package(catkin REQUIRED COMPONENTS
    StorybookTinkerText.msg
    StorybookExpectedResponse.msg
    StorybookRobotResponse.msg
+   StorybookRobotPerspective.msg
    StorybookPromptHighlightObject.msg
    StorybookJiboPrompt.msg
    StorybookKeywordQNA.msg
