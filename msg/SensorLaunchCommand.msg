@@ -16,11 +16,15 @@ bool is_run_openpose
 
 string affdex_version
 
+string llm_instruction
+
 # Command constants
 int8 START_SENSOR = 0
 int8 STOP_SENSOR = 1
 int8 START_ASR = 2
 int8 STOP_ASR = 3
+int8 START_REALTIME = 4
+int8 STOP_REALTIME = 5
 
 # Sensor type constants
 string USBCAM = UsbCam
