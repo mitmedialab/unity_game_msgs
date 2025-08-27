@@ -9,7 +9,7 @@ int8 command
 # Any optional parameters, sent as a string of serialized JSON.
 string params
 
-int8 HELLO_WORLD_ACK = 0 # Initializtion info. Params is {participant_id: string, story_name: [string], last_read_page: [int]}
+int8 HELLO_WORLD_ACK = 0 # Initializtion info. Params is {participant_id: string, story_name: [string], last_read_page: [int], display_books: bool}
 int8 HIGHLIGHT_WORD = 1 # Params is {indexes:[string], unhighlight: bool, stay_on: bool, scene_object_id: [int]}, words to highlight, whether it should stay on forever, or turn off
 int8 HIGHLIGHT_SCENE_OBJECT = 2 # Params is {ids: [int], highlight_type: int, tap : bool}, scene objects to highlight; type of highlight, where 0 = blink, 1 = highlight, and 2 = flash; whether highlight is caused by tap
 int8 SHOW_NEXT_SENTENCE = 3 # Params is {index: int, child_turn: bool, record: bool}, sentence to highlight and whether it's the child's turn

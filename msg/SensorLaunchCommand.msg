@@ -16,7 +16,9 @@ bool is_run_openpose
 
 string affdex_version
 
+# options for realtime container
 string llm_instruction
+bool robot_initiation
 
 # Command constants
 int8 START_SENSOR = 0
