@@ -35,6 +35,7 @@ find_package(catkin REQUIRED COMPONENTS
    StorybookPageInfo.msg
    StorybookPersonalizationLog.msg
    AudioStream.msg
+   RealtimeResults.msg
    GazeEstimationState.msg
    RealtimeAudioStream.msg
    EndPageQuestions.msg
