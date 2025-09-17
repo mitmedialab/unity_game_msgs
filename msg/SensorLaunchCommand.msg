@@ -18,7 +18,7 @@ string affdex_version
 
 # options for realtime container
 string llm_instruction
-bool robot_initiation
+string initiation_interlocutor
 
 # Command constants
 int8 START_SENSOR = 0
@@ -36,3 +36,8 @@ string MICROPHONE = Microphone
 # Affdex options
 string AFFDEX_V4 = v4
 string AFFDEX_AUTO = auto
+
+# Defines Interloctuors of Dyadic Conversation
+string ROBOT_INIT = jibo
+string PERSON_INIT = child
+string MIXED_INIT = tablet
